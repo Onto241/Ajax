@@ -10,7 +10,6 @@ $(document).ready(function() {
     });
 });
 
-
 $(document).ready(function(){
     $(".button-two").click(function(){
         $.getJSON("http://www.colourlovers.com/api/palettes/top?jsonCallback=?", { numResults: 3 }, function(colorPalettes) { printColors(colorPalettes)});
