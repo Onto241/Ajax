@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 $(document).ready(function () {
     $.getJSON("http://www.colourlovers.com/api/palettes/top?jsonCallback=?", function (colorPalettes) {
             printColors(colorPalettes);
